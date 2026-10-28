@@ -1,9 +1,10 @@
+// Question: How can a variable-length argument method sum any number of integers?
 package Arrays.Class;
 //Always the variable length arguement should be the last arguement
 //car(String name, int... numbers)
 
 public class VariableLenghArguement {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int [] numbs = {1,4,-3};
         System.out.println(sum(1,2,3,4,5,6,7,88,8));
         System.out.println(sum(numbs));
